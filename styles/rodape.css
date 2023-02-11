@@ -1,0 +1,220 @@
+.topicos{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    padding: 1em 0;
+}
+
+.titulo-topicos{
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.lista-topicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.btn-links{
+    color: var(--branco);
+    text-decoration: none;
+    padding: 1em;
+    background-color: #EB9B00;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.links-topicos{
+    margin: 2em 0.5em;
+}
+
+.rodape{
+    background-color: var(--branco);
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em;
+}
+
+.novidades{
+    padding: 0.7em 1em;
+}
+
+.titulo-rodape{
+   color: #002F52;
+   font-size: 18px;
+   line-height: 27px;
+   font-weight: 500;
+   -webkit-margin-before: 1em;
+   -webkit-margin-after: 1em;
+}
+
+.paragrafo-rodape{
+    color: #002F52;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-margin-before: 0.2em;
+    -webkit-margin-after: 0.2em;
+}
+
+.email{
+    padding: 1em 0.5em;
+    width: 330px;
+    border-radius: 24px;
+    border: 1px solid #002F52;
+    -webkit-margin-before: 2em;
+    -webkit-margin-after: 2em;
+}
+
+.email::placeholder{
+    background-image: url(../img/email.svg);
+    color: #002F52;
+    background-repeat: no-repeat;
+    background-position: 1em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 3em;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.alura{
+    padding: 1.5em 2em;
+    font-family: 'Poppins';
+}
+
+.fim{
+    background-color: var(--branco);
+    border-top: 1px solid #858585;
+}
+
+.links-rodape{
+    display: none;
+}
+
+.links-rodape a{
+   display: none;
+}
+
+.lista1{
+    display: none;
+}
+
+
+
+.links-rodape1{
+   display: none;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .titulo-topicos{
+        font-size: 24px;
+        padding: 0.5em;
+    }
+
+    .links-topicos{
+       padding: 0.5em;
+    }
+    
+    .btn-links{
+        font-size: 24px;
+    }
+
+    .rodape{
+        display: flex;
+        padding: 2em 4em;
+        align-items: center;
+    }
+
+    .novidades{
+        margin-right: 10em;
+    }
+    
+    .titulo-rodape{
+        font-size: 24px;
+    }
+
+    .paragrafo-rodape{
+        font-size: 16px;
+    }
+
+    .email{
+        width: 400px;
+        height: 22px;
+    }
+
+    .email::placeholder{
+        font-size: 16px;
+    }
+
+    .fim{
+        display: flex;
+    }
+
+    .links-rodape{
+        display: flex;
+        align-items: center;
+        margin: 0.2em 0 0.6em 0;
+    }
+
+    .links-rodape a{
+        text-decoration: none;
+        display: block;
+        font-size: 14px;
+        color: #000;
+        margin: 3px;
+    }
+
+    .lista1{
+        margin: 2.5em;
+        display: block;
+        font-family: 'Poppins';
+    }
+
+    .alura{
+        font-weight: 400;
+        display: block;
+        font-size: 24px;
+    }
+
+    .links-rodape1{
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        color: #858585;
+        margin: 0.2em 0 2em 0;
+    }
+}
+
+@media screen and (min-width: 1728px){
+  
+    .topicos{
+        padding: 3em;
+    }
+
+    .lista-topicos{
+        padding: 1em 25em ;
+    }
+    
+    .rodape{
+        justify-content: center;
+        padding: 4em;
+    }
+
+    .alura{
+        padding: 2em 5em;
+    }
+
+    .lista1{
+        padding: 1em 5em;
+        border-left: 1px  solid #858585;
+    }
+}

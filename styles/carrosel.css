@@ -1,0 +1,169 @@
+
+
+.titulo-carrosel{
+    color: #EB9B00;
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1em 0 0.5em 0;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+}
+
+.swiper-slide img{
+    width: 100%;
+    filter: drop-shadow(2px 4px 8px rgba(0, 0, 0, 0.15));
+}
+
+.pagination{
+    position: initial;
+    margin : .8em 0;
+    text-align: center;
+}
+
+
+
+.card-descricao{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.card{
+    background-color: var(--branco);
+    margin: 10px;
+    width: 335px;
+    padding: 19px ;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botoes-lista{
+    display: flex;
+}
+
+.itens{
+    margin: 1em;
+}
+
+.itens img{
+    height: 25px;
+}
+
+.descricao--titulo{
+   color: #EB9B00;
+   font-weight: 700;
+   font-size: 15px;
+   -webkit-margin-before: 1em;
+   -webkit-margin-after: 1em;
+}
+
+.livro-descricao{
+    font-size: 18px;
+    font-weight: 700;
+    color: #002F52;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+}
+
+.imagem{
+   height: 170px;
+}
+
+.texto{
+    font-size: 14px;
+}
+
+.ancora{
+    padding: 16px 36px;
+    color: var(--branco);
+    background-color: #EB9B00;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.avaliacao{
+    display: flex;
+}
+
+.estrelas{
+    margin: 2px;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .titulo-carrosel{
+        font-size: 26px;
+    }
+
+    .pagination{
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+
+    .swiper2{
+        width: 50%;
+    }
+
+    
+    .card{
+        margin: 2em auto;
+        width: 60%;
+    }
+
+    .texto{
+        font-size: 16px;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .titulo-carrosel{
+        font-size: 32px;
+        padding: 1.5em;
+    }
+
+    .conteudo,
+    .conteudo2{
+        display: flex;
+        align-items: center;
+        -webkit-margin-before: 3em;
+        -webkit-margin-after: 3em;
+    }
+
+    .card{
+        width: 40%;
+        margin-top: 4.5em;
+    }
+
+    .swiper{
+        width: 39%;
+        margin: 1em;
+    }
+
+    .descricao--titulo{
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .pagination{
+        margin: 1em;
+    }
+}
